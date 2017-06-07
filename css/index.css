@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+li,ul{
+	list-style: none;
+}
+#bg{
+	margin: 0px auto;
+	width: 343px;
+	height: 480px;
+	position: relative;
+	background: url(../img/bg.jpg);
+	overflow: hidden;
+}
+#BG{
+	position: absolute;
+	width: 343px;
+	height: 480px;
+}
+#start{
+	width: 343px;
+	padding-top: 100px;
+}
+#log{
+	width: 343px;
+	height: 77px;
+	position: absolute;
+}
+.logo{
+	width: 236px;
+	height: 77px;
+	background: url(../img/head.png);
+}
+.bird{
+	width: 40px;
+	height: 30px;
+	background: url(../img/bird0.png) no-repeat;
+}
+#log li{
+	float:left;
+}
+.btnstart{
+	width: 85px;
+	height: 29px;
+	border:none;
+	background: url(../img/start.jpg) no-repeat;
+	position: absolute;
+	top: 330px;
+	left: 130px;
+}
+#banner li{
+		width: 343px;
+		height: 14px;
+		float: left;
+		background: yellow;
+		background: url(../img/banner.jpg) no-repeat;
+}
+#banner{
+	width: 686px;
+	position: absolute;
+	top: 423px;
+}
+.Brid{
+	width: 40px;
+	height: 30px;
+	background: url(../img/bird0.png) no-repeat;
+	position: absolute;
+	top:160px;
+	left:70px;
+}
+.conduit{
+	position: absolute;
+	width: 62px;
+	right: -62px;
+}
+.conduit div{
+	width: 62px;
+}
+#gameover{
+	position: absolute;
+	margin: 70px 30px;
+	z-index: 3;
+}
+.gameover{
+	width: 269px;
+	height: 135px;
+	background:url(../img/message.jpg) no-repeat;
+	margin-top: 20px;	
+}
+.HistoryNumber{
+	position: absolute;
+	width: 53px;
+	height: 37px;
+	bottom: 63px;
+	right: 0px;
+	margin-right: 28px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 40px;
+}
+.gameover span{
+	float: right;
+	width: 53px;
+	height: 37px;
+	margin-top: 33px;
+	margin-right: 28px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 40px;
+}
+.over{
+	width: 221px;
+	height: 40px;
+	/*background:url(../img/game_over.png) no-repeat;*/
+}
+.ok{
+	background:url(../img/ok.jpg) no-repeat;
+	width: 96px;
+	margin:10px auto;
+	height: 33px;
+}
+#bigScore{
+	position: absolute;
+	z-index: 3;
+	width: 343px;
+	text-align: center;
+	margin:0px auto;
+	height:39px; 
+}
