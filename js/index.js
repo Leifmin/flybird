@@ -73,10 +73,9 @@ function Abridmove(Brid){
 				speedY=-8;
 			}
 		}
-		document.ontouchstart = function() {
+		document.documentElement.addEventListener("touchstart",function(){
 			speedY=-8;
-		}
-
+		},false)
 		};
 // 创建水管
  	
